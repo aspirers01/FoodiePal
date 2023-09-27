@@ -176,7 +176,7 @@
                 android:layout_below="@+id/dessert"
                 android:layout_alignStart="@id/dessert"
                 android:layout_alignEnd="@id/dessert"
-                android:layout_marginStart="17dp"
+                android:layout_marginStart="10dp"
                 android:layout_marginTop="3dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginBottom="-23dp"
