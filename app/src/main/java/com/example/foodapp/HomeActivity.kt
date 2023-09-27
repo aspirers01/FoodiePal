@@ -18,6 +18,33 @@ class HomeActivity : AppCompatActivity() {
       binding=ActivityHomeBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        binding.maindish.setOnClickListener{
+            var myintent= Intent(this@HomeActivity,CategoryActivity::class.java)
+            myintent.putExtra("TITTLE","Main Dish")
+            myintent.putExtra("CATEGORY","Dish")
+            startActivity(myintent)
+
+        }
+        binding.dessert.setOnClickListener{
+            var myintent= Intent(this@HomeActivity,CategoryActivity::class.java)
+            myintent.putExtra("TITTLE","Dessert")
+            myintent.putExtra("CATEGORY","Desserts")
+            startActivity(myintent)
+        }
+        binding.drinks.setOnClickListener{
+            var myintent= Intent(this@HomeActivity,CategoryActivity::class.java)
+            myintent.putExtra("TITTLE","Drinks")
+            myintent.putExtra("CATEGORY","Drinks" )
+            startActivity(myintent)
+
+        }
+        binding.salad.setOnClickListener{
+            var myintent= Intent(this@HomeActivity,CategoryActivity::class.java)
+            myintent.putExtra("TITTLE","Salad")
+            myintent.putExtra("CATEGORY","Salad")
+            startActivity(myintent)
+
+        }
         setuprecyclerview()
 
         binding.search.setOnClickListener{
