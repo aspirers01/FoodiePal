@@ -56,6 +56,7 @@
         app:tint="@color/background" />
 
     <RelativeLayout
+        android:id="@+id/relativeLayout"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginTop="-10dp"
@@ -65,13 +66,81 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/itemimg"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintVertical_bias="0.0">
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/tittle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="22dp"
+
+            android:layout_marginEnd="45dp"
+            android:fontFamily="@font/poppines"
+            android:text="i am sample title"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/clock"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_below="@id/tittle"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            app:srcCompat="@drawable/clock_icon"
+            app:tint="#019267" />
+
+        <TextView
+            android:id="@+id/time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:layout_below="@id/tittle"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="6dp"
+            android:layout_toEndOf="@id/clock"
+            android:text="30 mins"
+
+            />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="150dp"
+            android:layout_height="42dp"
+            android:layout_below="@id/tittle"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="40dp"
+            android:text="ingredient"
+            android:fontFamily="@font/poppines"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:background="@drawable/btn_ing"/>
+        <Button
+            android:id="@+id/steps"
+            android:layout_width="150dp"
+            android:layout_height="42dp"
+            android:layout_below="@id/tittle"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="34dp"
+            android:layout_marginTop="40dp"
+            android:text="steps"
+            android:fontFamily="@font/poppines"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:background="@drawable/btn_ing"/>
+
+
     </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/scrollup"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/scroll_up"
+        app:layout_constraintEnd_toEndOf="@+id/itemimg"
+        app:layout_constraintTop_toTopOf="@+id/relativeLayout" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
