@@ -1,9 +1,15 @@
 package com.example.foodapp
 
+import android.app.Dialog
 import android.content.Intent
+import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Gravity
 import android.view.LayoutInflater
+import android.view.ViewGroup
+import android.view.Window
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView.LayoutManager
 import androidx.room.Room
@@ -18,6 +24,23 @@ class HomeActivity : AppCompatActivity() {
       binding=ActivityHomeBinding.inflate(layoutInflater)
 
         setContentView(binding.root)
+
+
+
+        binding.more.setOnClickListener{
+            var dialog=Dialog(this )
+            dialog.requestWindowFeature(Window.FEATURE_NO_TITLE)
+            dialog.setContentView(R.layout.bottomsheet)
+
+            dialog.show()
+            dialog.window!!.setLayout(
+                ViewGroup.LayoutParams.MATCH_PARENT,
+                ViewGroup.LayoutParams.WRAP_CONTENT
+
+            )
+//            dialog.window!!.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
+            dialog.window!!.setGravity(Gravity.BOTTOM )
+        }
 
         binding.maindish.setOnClickListener{
             var myintent= Intent(this@HomeActivity,CategoryActivity::class.java)
