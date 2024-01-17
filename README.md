@@ -1,4 +1,6 @@
 Food Recipe App
+
+
 Welcome to the Food Recipe App repository! This app is designed to provide users with a variety of delicious recipes along with detailed instructions and ingredient lists. Whether you're a seasoned chef or a cooking novice, this app aims to inspire and satisfy your culinary cravings.
 
 Features
@@ -18,7 +20,7 @@ To run the Food Recipe App locally, follow these steps:
 Clone the repository to your local machine:
 bash
 Copy code
-git clone https://github.com/your-username/food-recipe-app.git
+git clone https://github.com/aspirers01/food_app
 cd food-recipe-app
 Install dependencies:
 bash
