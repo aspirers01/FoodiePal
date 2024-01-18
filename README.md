@@ -14,7 +14,7 @@ Welcome to FoodiePal, your go-to app for discovering and trying out delicious re
 
 ## Screenshots
 
-![FoodiePal Screenshot 1]([/screenshots/screenshot1.png](https://github.com/aspirers01/FoodiePal/blob/main/Screenshot_20240118_110331.png))
+![FoodiePal Screenshot 1](https://drive.google.com/file/d/16xwzeNx7RjignqnokNT9MpsjM0etuLC6/view?usp=share_link)
 ![FoodiePal Screenshot 2](/screenshots/screenshot2.png)
 
 ## Installation
@@ -31,7 +31,7 @@ Welcome to FoodiePal, your go-to app for discovering and trying out delicious re
 
 - **Frontend:** android xml
 - **Backend:** kotlin 
--**Database:** Room 
+- **Database:** Room 
 ## Contributing
 
 We welcome contributions! If you'd like to contribute to FoodiePal, please follow these steps:
