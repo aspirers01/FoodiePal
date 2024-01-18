@@ -1,4 +1,4 @@
-package com.example.foodapp
+package com.example.FoodiePal
 
 import androidx.room.Database
 import androidx.room.RoomDatabase

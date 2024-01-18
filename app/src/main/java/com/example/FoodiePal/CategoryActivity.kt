@@ -1,12 +1,10 @@
-package com.example.foodapp
+package com.example.FoodiePal
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.room.Room
-import com.example.foodapp.databinding.ActivityCategoryBinding
-import com.example.foodapp.databinding.ActivityHomeBinding
-import com.example.foodapp.databinding.CategoryRvBinding
+import com.example.FoodiePal.databinding.ActivityCategoryBinding
 
 class CategoryActivity : AppCompatActivity() {
     private lateinit var binding: ActivityCategoryBinding

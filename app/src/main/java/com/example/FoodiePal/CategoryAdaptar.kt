@@ -1,4 +1,4 @@
-package com.example.foodapp
+package com.example.FoodiePal
 
 import android.content.Context
 import android.content.Intent
@@ -6,8 +6,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.foodapp.databinding.ActivityRecipeDetailsBinding
-import com.example.foodapp.databinding.CategoryRvBinding
+import com.example.FoodiePal.databinding.CategoryRvBinding
 
 class CategoryAdaptar (var datalist:ArrayList<Recipe>,var context:Context):RecyclerView.Adapter<CategoryAdaptar.ViewHolder>() {
     inner class ViewHolder(var binding: CategoryRvBinding) : RecyclerView.ViewHolder(binding.root)

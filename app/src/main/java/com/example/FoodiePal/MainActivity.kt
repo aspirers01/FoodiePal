@@ -1,4 +1,4 @@
-package com.example.foodapp
+package com.example.FoodiePal
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

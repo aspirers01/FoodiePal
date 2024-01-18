@@ -1,14 +1,12 @@
-package com.example.foodapp
+package com.example.FoodiePal
 
-import android.annotation.SuppressLint
-import android.inputmethodservice.InputMethodService
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.room.Room
-import com.example.foodapp.databinding.ActivitySearchBinding
+import com.example.FoodiePal.databinding.ActivitySearchBinding
 
 import kotlin.collections.ArrayList
 

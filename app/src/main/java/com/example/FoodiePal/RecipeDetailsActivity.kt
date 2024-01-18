@@ -1,14 +1,11 @@
-package com.example.foodapp
+package com.example.FoodiePal
 
-import android.media.Image
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.LayoutInflater
 import android.view.View
 import android.widget.ImageView
-import androidx.core.view.marginTop
 import com.bumptech.glide.Glide
-import com.example.foodapp.databinding.ActivityRecipeDetailsBinding
+import com.example.FoodiePal.databinding.ActivityRecipeDetailsBinding
 
 class RecipeDetailsActivity : AppCompatActivity() {
     private lateinit var binding:ActivityRecipeDetailsBinding

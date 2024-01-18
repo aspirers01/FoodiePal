@@ -1,4 +1,4 @@
-package com.example.foodapp
+package com.example.FoodiePal
 
 import androidx.room.Dao
 import androidx.room.Query
