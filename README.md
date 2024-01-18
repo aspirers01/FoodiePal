@@ -24,9 +24,7 @@ Welcome to FoodiePal, your go-to app for discovering and trying out delicious re
     https://github.com/aspirers01/FoodiePal
    ```
 
-2. add firebase and its dependencies:
-
-3. Run the app:
+2. Run the app:
    
 
 ## Tech Stack
