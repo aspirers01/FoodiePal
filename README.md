@@ -12,10 +12,20 @@ Welcome to FoodiePal, your go-to app for discovering and trying out delicious re
 - **Step-by-Step Instructions:** Easy-to-follow instructions for every recipe, ensuring a seamless cooking experience.
 
 
+
 ## Screenshots
 
-![FoodiePal Screenshot 1](https://drive.google.com/file/d/16xwzeNx7RjignqnokNT9MpsjM0etuLC6/view?usp=share_link)
-![FoodiePal Screenshot 2](/screenshots/screenshot2.png)
+
+<img src="https://github.com/aspirers01/FoodiePal/assets/92663550/10a67c95-4b5f-4e25-8ef7-440370cfa79c" width=250>
+<img src="https://github.com/aspirers01/FoodiePal/assets/92663550/f4b053d0-82de-4884-84e6-f4020a97fc02" width=250>
+<img src="https://github.com/aspirers01/FoodiePal/assets/92663550/f67f7ace-a8b8-471a-9715-aca82a1ea694" width=250>
+<img src="https://github.com/aspirers01/FoodiePal/assets/92663550/8e1daa19-859a-4c83-afd1-1cdec4e5c9dd" width=250>
+
+
+
+
+
+
 
 ## Installation
 
