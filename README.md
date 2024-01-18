@@ -21,7 +21,7 @@ Welcome to FoodiePal, your go-to app for discovering and trying out delicious re
 
 1. Clone the repository:
    ```bash
-  [ git clone https://github.com/yourusername/foodiepal.git](https://github.com/aspirers01/food_app)
+    https://github.com/aspirers01/FoodiePal
    ```
 
 2. add firebase and its dependencies:
@@ -33,9 +33,6 @@ Welcome to FoodiePal, your go-to app for discovering and trying out delicious re
 
 - **Frontend:** android xml
 - **Backend:** kotlin 
-- **Database:** firebase realtime databse
-- **Authentication:** firebase authentication
-- **Styling:** CSS-in-JS (Styled Components)
 
 ## Contributing
 
