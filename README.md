@@ -12,31 +12,36 @@ Welcome to FoodiePal, your go-to app for discovering and trying out delicious re
 - **Step-by-Step Instructions:** Easy-to-follow instructions for every recipe, ensuring a seamless cooking experience.
 
 
+
 ## Screenshots
 
-![FoodiePal Screenshot 1](/screenshots/screenshot1.png)
-![FoodiePal Screenshot 2](/screenshots/screenshot2.png)
+
+<img src="https://github.com/aspirers01/FoodiePal/assets/92663550/10a67c95-4b5f-4e25-8ef7-440370cfa79c" width=250>
+<img src="https://github.com/aspirers01/FoodiePal/assets/92663550/f4b053d0-82de-4884-84e6-f4020a97fc02" width=250>
+<img src="https://github.com/aspirers01/FoodiePal/assets/92663550/f67f7ace-a8b8-471a-9715-aca82a1ea694" width=250>
+<img src="https://github.com/aspirers01/FoodiePal/assets/92663550/8e1daa19-859a-4c83-afd1-1cdec4e5c9dd" width=250>
+
+
+
+
+
+
 
 ## Installation
 
 1. Clone the repository:
    ```bash
-  [ git clone https://github.com/yourusername/foodiepal.git](https://github.com/aspirers01/food_app)
+    https://github.com/aspirers01/FoodiePal
    ```
 
-2. add firebase and its dependencies:
-
-3. Run the app:
+2. Run the app:
    
 
 ## Tech Stack
 
 - **Frontend:** android xml
 - **Backend:** kotlin 
-- **Database:** firebase realtime databse
-- **Authentication:** firebase authentication
-- **Styling:** CSS-in-JS (Styled Components)
-
+- **Database:** Room 
 ## Contributing
 
 We welcome contributions! If you'd like to contribute to FoodiePal, please follow these steps:
